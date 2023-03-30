@@ -1,0 +1,64 @@
+ body{
+   background-color: #85FFBD;  
+}
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+   position: relative;
+}
+.page__container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.page__picter{
+   padding-top: 100px;
+   text-align: center;
+}
+.page__picter img{
+   max-width: 100%;
+}
+.form {
+   padding-top: 50px;
+   text-align: center;
+}
+ .box {
+   padding-top: 10px;
+   
+} 
+.form__button {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   position: relative;
+   
+}
+.form__button img{
+   position: absolute;
+   top: -2.5px;
+   left: -2.5px;
+   
+}
+
+.form._active .form__button img:first-child{
+   display: none;
+}
+.form._active .form__button img:last-child{
+   display: block;
+}
+.form__button img:first-child{
+   display: block;
+}
+.form__button img:last-child{
+   display: none;
+}
+.box{
+   display: none;
+}
+.form._active .box {
+   display: block;
+}
+.form__symbol{
+   font-size: 12px;
+}  
